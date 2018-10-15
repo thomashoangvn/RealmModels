@@ -1,0 +1,16 @@
+PODS:
+  - RealmModels (0.1.0)
+
+DEPENDENCIES:
+  - RealmModels (from `../`)
+
+EXTERNAL SOURCES:
+  RealmModels:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RealmModels: b47c4c7dc8264ab6ab7fc37d6104a819ac6db81a
+
+PODFILE CHECKSUM: 8180676efa41b74b801f1ec6e7fda329328049d8
+
+COCOAPODS: 1.6.0.beta.1
