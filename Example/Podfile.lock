@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RealmModels: b47c4c7dc8264ab6ab7fc37d6104a819ac6db81a
+  RealmModels: 8a599bbd9107cda726fd47c1dc283cf645a4f571
 
 PODFILE CHECKSUM: 8180676efa41b74b801f1ec6e7fda329328049d8
 
