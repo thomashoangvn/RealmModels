@@ -19,15 +19,15 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 #TODO: Add long description of the pod here.
-RealmModels use ObjectMapper RealmSwift for models.
+RealmModels use ObjectMapper RealmSwift to models.
                        DESC
 
   s.homepage         = 'https://github.com/HoangDinhTho/RealmModels'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'thohoangdinh@gmail.com' => 'thohoangdinh@gmail.com' }
+  s.author           = { 'thohoangdinh@gmail.com' => 'HoangTho' }
   s.source           = { :git => 'https://github.com/HoangDinhTho/RealmModels.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/HoangDinhTho'
 
   s.ios.deployment_target = '10.0'
 
@@ -36,9 +36,12 @@ RealmModels use ObjectMapper RealmSwift for models.
   # s.resource_bundles = {
   #   'RealmModels' => ['RealmModels/Assets/*.png']
   # }
-
+  
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit', 'Foundation'
+  s.dependency 'RealmSwift', '~> 3.11.0'
+  s.dependency 'ObjectMapper', '~> 3.3.0'
+  
   s.swift_version = '4.2'
+  
 end
