@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RealmModels
 
 class ViewController: UIViewController {
 
