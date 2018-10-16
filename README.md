@@ -10,7 +10,12 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
-
+RealmModels use RealmSwift and ObjectMapper
+please import 
+```ruby
+pod 'RealmSwift'
+pod 'ObjectMapper'
+```
 ## Installation
 
 RealmModels is available through [CocoaPods](https://cocoapods.org). To install
@@ -22,7 +27,7 @@ pod 'RealmModels'
 
 ## Author
 
-thohoangdinh@gmail.com, thohoangdinh@gmail.com
+HoangDinhTho
 
 ## License
 
